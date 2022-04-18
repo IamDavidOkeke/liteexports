@@ -37,4 +37,5 @@ app.post('/email', function(req,res){
   });
 
   app.listen(port, () => {
+    console.log("server runing at port:3000")
   })
