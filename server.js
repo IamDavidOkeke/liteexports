@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 
 
-const port = process.env.port || 3000
+const port = process.env.PORT
 var app = express();
 var server = http.createServer(app);
 
@@ -36,6 +36,6 @@ app.post('/email', function(req,res){
    res.json('nice info')
   });
 
-  app.listen(port, () => {
+  app.listen(port || 3000 , () => {
     console.log(  "server running at " + port )
   })
