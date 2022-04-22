@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Quicksand&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link href="./main.css" rel="stylesheet">
     <link href="./contact.css" rel="stylesheet">
-    <title>LITEEXPORTS</title>
+    <title>LITEEXPORTS ORDER</title>
     <link rel="icon" type="image/x-icon" href="./media/lite_exports_logo_8Ia_icon.ico">
   </head>
   <body>
@@ -38,31 +38,31 @@
             <button class="mobilenav"> &#9776;</button>
           </nav>
         
-       <form class="" method="post" action="mailto:liteexports@gmail.com?subject=Order%20From%20Liteexports.com" enctype="text/plain" >
+       <form class="" method="post" action="/email"  >
         <h3>MAKE ORDER</h3>
            <label for="Name/Company"> Name/Company</label>
-           <input required type="text" name="Name/Company"/>
+           <input required type="text" name="name"/>
 
            <label for="Email">Email </label>
-           <input required type="email" name="Email"/>
+           <input required type="email" name="email"/>
 
            <label for="Phone Number">Phone Number </label>
-           <input required type="tel" name="Phone Number"/>
+           <input required type="tel" name="phoneNumber"/>
 
            <label for="Country ">Country </label>
-           <input required type ="text" name ="Country" autocomplete="country-name" />
+           <input required type ="text" name ="country" autocomplete="country-name" />
 
            <label for=""> State</label>
-           <input required type ="text" name ="State" autocomplete="state"/>
+           <input required type ="text" name ="state" autocomplete="state"/>
 
            <label for="Crop(s) interested in">Crop(s) interested in <small>(If more than one, please seperate with a comma )</small></label>
-           <input required type ="text" name ="Crop interested in" multiple/>
+           <input required type ="text" name ="crop" multiple/>
 
            <label for=" Quantity of each crop"> Quantity of each crop<small>(If more than one, please seperate with a comma in the same order as listed above )</small></label>
-           <input required type ="text"  name="Quantity"/>
+           <input required type ="text"  name="quantity"/>
 
            <label for="Additional information">Additional information </label>
-           <textarea type="text" name="Additional information" class="additional"></textarea>
+           <textarea type="text" name="addInfo" class="additional"></textarea>
 
            <button type="sumbit" value="Make order" class="button" >Submit </button>
            <button type="reset" value="reset" class="button" >Reset </button>

@@ -57,11 +57,13 @@ body{
 .cover button{
     background-color:rgba(0, 0, 0, 0.0);
     outline:none;
-    border:1px solid rgb(4, 255, 79);
+    border:3px solid rgb(4, 255, 79);
     border-radius: 5px;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -184,16 +186,17 @@ body{
 
 
 .about-content{
-    margin: 0px;
+    margin: 0;
     padding-bottom: 50px;
     margin-bottom: 30px;
+   
   
 }
 .about-content div{
     margin: 0 auto;
     background-color: white;
     width: 70%;
-    padding: 50px;
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -215,17 +218,17 @@ body{
         padding: 20px 0px;
     }
     .logo img{
-        padding: 20px 40px;
+        padding: 20px;
         width:40%;
         height: auto;
     }
     .cover{
-        padding: 20px 40px;
+        padding: 20px ;
         margin: 0 auto;
-        text-align:start;
+        text-align:justify;
     }
     .mobilenav{
-        padding: 5px 40px;
+        padding: 5px 20px;
         font-weight: bold;
         font-size: 32px;
         color: white;
@@ -240,6 +243,14 @@ body{
         flex-wrap: wrap;
         padding-top: 0px;
     }
+    .about-content div{
+        margin: 0 auto;
+        width: 90%;
+        background-color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
   }
 
 .modal{
