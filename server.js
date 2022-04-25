@@ -52,7 +52,7 @@ app.get('/contact', function(req,res){
     res.sendFile(path.join(__dirname,'./public/contact.html'));
   });
 
-  app.get('/.well-known/pki-validation', function(req,res){
+  app.get('/.well-known/pki-validation/958B9579FE4822BEC4ECFB35B34592EA.txt', function(req,res){
     res.sendFile(path.join(__dirname,'./.well-known/pki-validation/958B9579FE4822BEC4ECFB35B34592EA.txt'));
   });
 
